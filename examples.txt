@@ -1,0 +1,9 @@
+{"function":"flight", "params":{"id":"12345", "airports":[{"airport":"WAW","takeoff_time":"2021-06-01 20:26:44.229109+02"},{"airport":"WRO","takeoff_time":"2021-06-01 21:46:44.229109+02", "landing_time":"2021-06-01 21:26:44.229109+02"}, {"airport":"GDN", "landing_time":"2021-06-01 22:46:44.229109+02"}]}}
+{"function":"list_flights", "params":{"id":"12345"}}
+{"function":"flight", "params":{"id":"12346", "airports":[{"airport":"KTW","takeoff_time":"2021-06-02 12:00:00.229109+02"},{"airport":"POZ", "landing_time":"2021-06-01 13:00:00.229109+02"}]}}
+{"function":"list_flights", "params":{"id":"12346"}}
+{"function":"list_cities", "params":{"id":"12345", "dist":"50"}}
+{"function":"flight", "params":{"id":"12347", "airports":[{"airport":"WAW","takeoff_time":"2021-06-03 20:26:44.229109+02"},{"airport":"WRO","takeoff_time":"2021-06-03 21:46:44.229109+02", "landing_time":"2021-06-03 21:26:44.229109+02"}, {"airport":"GDN", "landing_time":"2021-06-03 22:46:44.229109+02"}]}}
+{"function":"list_airport", "params":{"iatacode":"WRO", "n":"10"}}
+{"function":"list_airport", "params":{"iatacode":"WRO", "n":"1"}}
+{"function":"list_city", "params":{"name":"Wrocław", "prov":"Dolnośląskie", "country":"PL", "n":"10", "dist":"50"}}

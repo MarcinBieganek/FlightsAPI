@@ -42,3 +42,23 @@ Odpowiedż API w formacie JSON ma dwa pola: status oraz data.
 Przykładowe zapytania można zobaczyć w pliku examples.txt.
 
 ### Funkcje
+
+#### flight
+
+Dodaje lot o podanym id i trasie lotu. Trasa lotu to lista lotnisk wraz z czasem przylotu i odlotu.
+
+#### list_flights
+
+Zwraca informacje o segmentach lotów, które przecinają się z dowolnym segmentem lotu o podanym id. Zwraca id lotu, kod IATA lotniska startu i lądowania oraz czas startu.
+
+#### list_cities
+
+Zwraca listę miast oddalonych mniej niż podana odległość od lotu o podanym id.
+
+#### list_airport
+
+Zwraca listę n ostatnich lotów startujących z lotniska o podanym id.
+
+#### list_city
+
+Zwraca listę n ostatnich lotów przelatujących w odległości mniejszej niż podany dist od podanego miasta.
